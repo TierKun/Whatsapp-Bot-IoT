@@ -80,7 +80,7 @@ Edit the required value in `./lib/database/setting.json`. You can get the token 
 
 ```cmd
 
-> CTRL + C
+> ctrl + c
 
 ```
 
