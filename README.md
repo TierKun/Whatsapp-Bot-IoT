@@ -13,17 +13,14 @@ Chatbot Whatsapp can control IoT via API/endpoint
 
 ### other integration
 
-* [`Whatsapp Bot`](https://github.com/TierKun/Whatsapp-Bot-IoT)
+* [`Teleram Bot`](https://github.com/TierKun/Telegram-Bot-IoT)
 
 
 
 ## Windows
 
 * [`Download Node JS`](https://nodejs.org/en/download/)
-
 * [`Download Git`](https://git-scm.com/download/win)
-
-
 
 
 
@@ -31,9 +28,8 @@ Chatbot Whatsapp can control IoT via API/endpoint
 
 ```cmd
 
-> git clone https://github.com/TierKun/Telegram-Bot-IoT
-
-> cd Telegram-Bot-IoT
+> git clone https://github.com/TierKun/Whatsaap-Bot-IoT
+> cd Whatsapp-Bot-IoT
 
 ```
 
@@ -51,15 +47,24 @@ Chatbot Whatsapp can control IoT via API/endpoint
 
 ## Edit config file
 
-Edit the required value in `config.json`. You can get the token blynk at [`blynk.cloud`](https://blynk.cloud/). And get bot token at [`@BotFather`](http://t.me/BotFather).
+Edit the required value in `./lib/database/setting.json`. You can get the token blynk at [`blynk.cloud`](https://blynk.cloud/).
 
 ```json
 
-
-
-  {
-
-  {
+{
+    "limitCount":"5000",
+    "memberLimit":"5",
+    "groupLimit":25,
+    "blynk_token": "VqR5Pyeqoxxxxxxxxxxxxxx", 
+    "blynk_server": "sgp1.blynk.cloud",
+    "on_value": "1",
+    "off_value": "0",
+    "mtc":false,
+    "restartState":false,
+    "restartId":"undefined",
+    "banChats":false,
+    "Rest":true
+}
 
  ```
 
