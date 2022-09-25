@@ -76,6 +76,23 @@ Edit the required value in `./lib/database/setting.json`. You can get the token 
 
 ```
 
+## Stop the bot
+
+```cmd
+
+> CTRL + C
+
+```
+
+
+## Troubleshooting
+Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+Fix Stuck on linux, install google chrome stable: 
+```bash
+> wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+> sudo apt install ./google-chrome-stable_current_amd64.deb
+```
 
 
 # Thanks To
